@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой минималистичный блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title"><a href="/">Простой блог</a></h1>
+            <p class="site-description">Минимализм и чистый текст, как в Teletype</p>
+        </div>
+    </header>
+
+    <!-- Основной контент: сетка с постами -->
+    <main class="container">
+        <h2 class="section-title">Последние записи</h2>
+        <!-- Контейнер, куда будут вставлены карточки постов из script.js -->
+        <div class="posts-grid" id="posts-container">
+            <!-- Заглушка на случай, если JS не загрузится -->
+            <p>Загрузка статей...</p>
+        </div>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2024 Мой простой блог. Сделано с ❤️ для примеров.</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем файл с данными и логикой -->
+    <script src="script.js"></script>
+</body>
+</html>
